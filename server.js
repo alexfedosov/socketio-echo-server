@@ -9,7 +9,7 @@ var io  = sio.listen(server);
 
 io.sockets.on('connection', function(socket) {
   socket.on('message', function(msg) {
-  	console.log('Receive message :' + message);
+  	console.log('Receive message :' + msg);
     socket.emit('message', msg);
   });
 });
