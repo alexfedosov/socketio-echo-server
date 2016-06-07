@@ -12,3 +12,4 @@
 
 #### Usage
 You can send any data with event `message` and server will send same message back to you.
+You're awesome!
